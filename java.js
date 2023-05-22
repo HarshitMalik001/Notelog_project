@@ -1,10 +1,10 @@
 document.addEventListener("DOMContentLoaded", function () {
-    // Get a reference to the form and note list elements
+
     const form = document.querySelector("form");
     const noteList = document.getElementById("note-list");
   
     form.addEventListener("submit", function (event) {
-      event.preventDefault(); // Prevent the default form submission
+      event.preventDefault();
   
       const title = document.getElementById("Notetitle").value;
       const date = document.getElementById("date").value;
